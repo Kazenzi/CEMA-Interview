@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    tools:context=".GetSpecialistFragment">
+
+        <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Get A Doctor"
+                android:textAlignment="center"
+                android:textSize="40sp"
+                android:layout_marginStart="25dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/indigo_daisy"
+                android:layout_marginTop="60dp"/>
+
+
+
+            <EditText
+                android:layout_marginTop="34dp"
+                android:id="@+id/et_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Enter your location"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:padding="15dp"
+                android:inputType="textPersonName"
+                android:fontFamily="@font/roboto_regular"
+                android:background="@drawable/et_custom"
+                android:textSize="15sp" />
+            <EditText
+                android:id="@+id/et_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Select a date"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:padding="15dp"
+                android:inputType="none"
+                android:focusable="false"
+                android:fontFamily="@font/roboto_regular"
+                android:background="@drawable/et_custom"
+                android:textSize="15sp" />
+
+
+
+
+            <EditText
+                android:id="@+id/et_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Select a time"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:padding="15dp"
+                android:inputType="none"
+                android:focusable="false"
+                android:fontFamily="@font/roboto_regular"
+                android:background="@drawable/et_custom"
+                android:textSize="15sp" />
+
+
+
+            <EditText
+                android:id="@+id/et_repassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Add additonal not optional"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:padding="15dp"
+                android:fontFamily="@font/roboto_regular"
+                android:inputType="textPassword"
+                android:background="@drawable/et_custom"
+                android:textSize="15sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/btn_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/btn_custom"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="Find a Doctor"
+                    android:textColor="@android:color/white" />
+
+
+
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>

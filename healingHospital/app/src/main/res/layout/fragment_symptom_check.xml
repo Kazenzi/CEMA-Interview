@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context=".SymptomCheckFragment">
+        <TextView
+            android:layout_marginTop="33dp"
+            android:id="@+id/textTitle"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Symptom Checker"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="33dp"
+
+            android:layout_marginRight="23dp"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/simpleCheckBox"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Savere Headache"
+                android:textSize="25sp"
+                android:checked="true"
+                android:gravity="right|center_vertical"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="23dp"
+
+        android:layout_marginRight="23dp"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/sympton2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="sympton 1"
+            android:textSize="25sp"
+            android:checked="true"
+            android:gravity="right|center_vertical"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="23dp"
+
+        android:layout_marginRight="23dp"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/sympton3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="sympton 3"
+            android:textSize="25sp"
+            android:checked="true"
+            android:gravity="right|center_vertical"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="23dp"
+
+        android:layout_marginRight="23dp"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/sympton4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="sympton 5"
+            android:textSize="25sp"
+            android:checked="true"
+            android:gravity="right|center_vertical"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="23dp"
+
+        android:layout_marginRight="23dp"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/sympton5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="sympton 6"
+            android:textSize="25sp"
+            android:checked="true"
+            android:gravity="right|center_vertical"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="23dp"
+
+        android:layout_marginRight="23dp"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/sympton6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="sympton 7"
+            android:textSize="25sp"
+            android:checked="true"
+            android:gravity="right|center_vertical"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="23dp"
+
+        android:layout_marginRight="23dp"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/sympton7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="sympton 9"
+            android:textSize="25sp"
+            android:checked="true"
+            android:gravity="right|center_vertical"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="23dp"
+
+        android:layout_marginRight="23dp"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/sympton8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Simpton 8 "
+            android:textSize="25sp"
+            android:checked="true"
+            android:gravity="right|center_vertical"/>
+
+    </LinearLayout>
+    <Button
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:text="check"
+        android:textSize="23sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </Button>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
